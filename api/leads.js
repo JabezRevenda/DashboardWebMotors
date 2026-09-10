@@ -4,7 +4,7 @@
 // lê a tabela do Excel via Microsoft Excel 365) e devolve pro navegador.
 
 export default async function handler(req, res) {
-  const N8N_WEBHOOK_URL = 'https://revenda.app.n8n.cloud/webhook/leads';
+  const N8N_WEBHOOK_URL = 'https://revenda123.app.n8n.cloud/webhook/leads';
   try {
     const resp = await fetch(N8N_WEBHOOK_URL, { redirect: 'follow' });
     if (!resp.ok) {
